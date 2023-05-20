@@ -19,6 +19,7 @@ server.on("request", (req, res) => {
         Country code: ${actualdata.countryCode} \n 
         Time zone: ${actualdata.timezone}   \n ` );
       });
+      
     });
   });
 });
